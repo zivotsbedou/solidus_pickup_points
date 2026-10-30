@@ -1,0 +1,8 @@
+cs:
+  solidus_pickup_points:
+    pickup_point: Výdejní místo
+    pickup_required: Vyber výdejní místo pro každý balík.
+  activerecord:
+    attributes:
+      spree/shipment:
+        pickup_point_id: Výdejní místo

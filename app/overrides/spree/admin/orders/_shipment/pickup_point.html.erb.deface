@@ -1,0 +1,7 @@
+<!-- insert_bottom '[data-hook="admin_shipment_form"]' -->
+<% if shipment.pickup_point_id.present? %>
+  <section class="pickup-point" data-hook="admin_shipment_pickup_point">
+    <h3><%= t("solidus_pickup_points.pickup_point") %></h3>
+    <p><%= shipment.pickup_carrier %> / <%= shipment.pickup_point_id %> — <%= [shipment.pickup_name, shipment.pickup_address].compact_blank.join(", ") %></p>
+  </section>
+<% end %>

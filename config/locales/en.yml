@@ -1,0 +1,8 @@
+en:
+  solidus_pickup_points:
+    pickup_point: Pickup point
+    pickup_required: Choose a pickup point for each parcel.
+  activerecord:
+    attributes:
+      spree/shipment:
+        pickup_point_id: Pickup point
